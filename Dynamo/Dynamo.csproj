@@ -137,6 +137,8 @@
   <ItemGroup>
     <Content Include="App_Data\Exercises.xml" />
     <Content Include="Content\assets\css\1-tools\fonts\icomoon.svg" />
+    <Content Include="Content\assets\css\main.css" />
+    <Content Include="Content\assets\css\main.min.css" />
     <Content Include="Content\assets\img\apple-watch.jpg" />
     <Content Include="Content\assets\img\avocado.png" />
     <Content Include="Content\assets\img\beach.jpg" />

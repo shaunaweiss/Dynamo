@@ -33,9 +33,9 @@ namespace Dynamo.App_Start
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
 
-                      "~/Content/bootstrap.css"
+                      /*"~/Content/bootstrap.css"*/
 
-                      /*"~/Content/assets/css/main.min.css"*/));
+                      "~/Content/assets/css/main.min.css"));
         }
     }
 }

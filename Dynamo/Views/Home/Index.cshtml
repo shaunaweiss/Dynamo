@@ -2,76 +2,62 @@
 @{
     ViewBag.Title = "Home Page";
 }
-
+<!---
+<!DOCTYPE html>
+<html lang="en">
+    -->
+<!---
+<head>
+  <title>Dynamo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Bootstrap 4 website template">
+  <meta name="keywords" content="fitness, bootstrap, template, html, sass, jquery">
+  <meta name="author" content="Shauna Weiss">
+  <link rel="stylesheet" href="~/Content/assets/css/main.min.css">
+  <!-- [if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]
+</head>
+-->
 <body class="mobile-shift">
 
-    <header id="Home">
+    <header id="home">
         <div class="claim-lockup">
-
             <div class="claim">
-
                 <p class="headline">Fitness At Home<span>/</span></p>
                 <p class="kicker">Yes You Can<span>/</span></p>
-
             </div>
-
         </div>
-
         <div class="angled-overlay"></div>
     </header>
-
     <section id=About class="featured">
-
         <div class="container">
-
             <div class="row">
-
                 <div class="col-lg-5 feature">
-
                     <i class="icon-suitcase icon-lg"></i>
-
                     <h2>Generator</h2>
-
                     <p>Design your own personalized work out plan by answering some questions to help us get to know you, first!  </p>
-
-                    <a href="">Generate<i class="icon-arrow-long-right"></i></a>
-
+                    <a href="/Generator">Generate<i class="icon-arrow-long-right"></i></a>
                 </div>
 
                 <div class="col-lg-5 feature">
-
                     <i class="icon-dashboard icon-lg"></i>
-
-                    <h2>Workout Zone</h2>
-
-                    <p>Here you can track your workout by timing your reps, and can listen to some cool music tailored specifically toward your workout.</p>
-
-                    <a href="">Browse Workout Zone<i class="icon-arrow-long-right"></i></a>
-
+                    <h2>About</h2>
+                    <p>Here you can learn more about how to best utilize Dynamo. </p>
+                    <a href="#Resources">Explore<i class="icon-arrow-long-right"></i></a>
                 </div>
 
                 <div class="col-lg-5 feature">
-
                     <i class="icon-cloud icon-lg"></i>
-
                     <h2>Resources</h2>
-
                     <p>Here you will find some useful workout sources which will help motivate you. </p>
-
-                    <a href="">Explore More<i class="icon-arrow-long-right"></i></a>
-
+                    <a href="#Resources">Explore More<i class="icon-arrow-long-right"></i></a>
                 </div>
-
                 <div class="col-lg-5 feature">
-
                     <i class="icon-chat icon-lg"></i>
-
                     <h2>Contact</h2>
-
                     <p>What do you think about our generator? Share your thoughts, contact the developer.</p>
-
-                    <a href="">Contact<i class="icon-arrow-long-right"></i></a>
-
+                    <a href="mailto:weisssa2@miamioh.edu">Contact<i class="icon-arrow-long-right"></i></a>
                 </div>
             </div>
         </div>
@@ -79,289 +65,248 @@
     <section class="grid">
         @*@Html.Partial("GeneratorForm")*@
     </section>
-
     <!--This is displaying all of the exercises stored from the XML file. (For testing purposes ONLY)-->
     <section class="grid">
         @*@Html.Action("ExerciseList")*@
     </section>
 
-   
+    <!---
+    <section id ="Generator" class= "grid" >
+        <div class="container">
+        <div class="row">
+        <div class="generator">
+            <div class="col-lg-7 text-block" style="text-align:center">
+            <div class="text-lockup"></div>
+            <h3>DYNAMO</h3>
+            <h2>GENERATE YOUR WORKOUT</h2>
+            <img src="~/Content/assets/img/drop-muted.png" />
+            <p> Please fill out the form to the right in order to enable us to customize a workout just for you.  </p>
+            </div>
+
+            <div class="form-row">
+
+                <div class="col-lg-13 large-thumb">
+
+                    <form id="workout" action="/Generator/" method="get">
+
+                        <div class="form-group col-md-6">
+                            <p> Select your Gender:</p>
+
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male"><br>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female"><br>
+                            <label for="other">Other</label>
+                            <input type="radio" name="gender" id="other" value="other"><br><br>
+                            <div>
+                                <p> Height: <input type="number" name="Height" value="60" min="0" max="85"> inches  </p>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <p> Target Weight: <input type="number" name="TargetWeight" value="120" min="0" max="300"> lbs  </p>
+                            <p> Actual Weight: <input type="number" name="CurrentWeight" value="150" min="0" max="300"> lbs </p>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <p>Training Focus Area: </p>
+
+                    <label for="cardio">Cardio</label>
+                    <input type="checkbox" name="type" id="cardio" value="cardio"><br>
+                    <label for="strength">Strength</label>
+                    <input type="checkbox" name="type" id="strength" value="strength"><br>
+                    <label for="flexibility">Flexibility</label>
+                    <input type="checkbox" name="type" id="flexibility" value="flexibility"><br><br>
+                </div>
+
+                <div class="form-group">
+                    <p>Areas of body to target:</p>
+
+                    <label for="upperbody">Upper Body</label>
+                    <input type="checkbox" name="focus" id="upperbody" value="upperbody"><br>
+                    <label for="core">Core</label>
+                    <input type="checkbox" name="focus" id="core" value="core"><br>
+                    <label for="lowerbody">Lower Body</label>
+                    <input type="checkbox" name="focus" id="lowerbody" value="lowerbody"><br><br>
+
+                </div>
+                <input id="url" type="submit" />
+                </form>
+
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+            -->
     <section></section>
-
-    <section class="grid">
-
+    <section id="Resources" class="grid">
         <div class="bg-secondary">
-
             <div class="container">
-
                 <div class="row fitness-first">
-
                     <div class="col-lg-7 text-block">
 
-
                         <div class="text-lockup">
-
 
                             <h3>It's All About</h3>
-
                             <h2>Fitness First</h2>
-
+                            <h4> Benefits of Physical Fitness </h4>
                             <img src="~/Content/assets/img/drop-muted.png" />
-
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-
+                                "Staying active means keeping your body functioning at a high level. Regular exercise will maintain the performance of your lungs and heart to most efficiently burn off excess calories and keep your weight under control." -FITDAY
                             </p>
-
-                            <a href="">Read More</a>
-
+                            <a href="https://www.fitday.com/fitness-articles/nutrition/healthy-eating/the-importance-of-physical-fitness.html">Read More</a>
                         </div>
-
                     </div>
-
                     <div class="col-lg-13 large-thumb">
-
                         <div class="stats">
-
                             <p>Active Users <span>(34)</span></p>
-
                             <img src="~/Content/assets/img/drop-primary.png" />
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="row love-your-body">
-
                     <div class="col-lg-13 large-thumb">
-
                         <div class="stats">
-
                             <p>Products Used <span>(658)</span></p>
-
                             <img src="~/Content/assets/img/drop-primary.png">
-
                         </div>
-
                     </div>
-
                     <div class="col-lg-7 text-block">
-
                         <div class="text-lockup">
-
                             <h3>Love</h3>
-
                             <h2>Your Body</h2>
-
                             <img src="~/Content/assets/img/drop-muted.png">
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-
-                            <a href="">Read More</a>
-
+                            <p> "You only get one body in your lifetime.[...] (and) while the easy out may be appealing to some, nothing can replace the lasting health and physical fitness of good old fashioned exercise. What’s the best thing you can do to live a happier life? Love your body!" -BETTERBODDIES </p>
+                            <a href="http://betterbodiesnky.com/how-to-love-your-body/">Read More</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
         <div class="container">
-
             <div class="row mid-unit">
-
                 <div class="col-lg-7 lifestyle">
-
                     <div class="small-thumb"></div>
-
                     <div class="text-block">
-
                         <div class="text-lockup">
-
                             <h3>Track Your</h3>
-
                             <h2>Lifestyle</h2>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-
+                            <p>"Runners typically report being happier and feeling less stressed than their counterparts who do not run or exercise regularly." -Health Fitness Revolution</p>
+                            <a href="http://www.healthfitnessrevolution.com/top-10-health-benefits-of-running-track/">Read More</a>
                             <i class="icon-user"></i>
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="col-lg-13 summer-fun">
-
                     <div class="large-thumb">
-
                         <p class="date">24th August</p>
-
                         <div class="category">
-
                             <p>Health &amp; Fitness</p>
-
                             <i class="icon-tag"></i>
-
                         </div>
-
                     </div>
-
                     <div class="text-block">
-
                         <div class="text-lockup">
-
                             <h2>Summer of Fun</h2>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-
+                            <p>"Warmer, sunny days are finally here, but after exercising in cooler Spring temps, hot and humid 80-degree days can feel overwhelming. Running, biking, hiking, even walking feels harder in the heat, so here are some tips to help you get through your Summer workouts." -Shape </p>
+                            <a href="https://www.shape.com/fitness/tips/tips-working-out-summer-heat">Read More</a>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
             <div class="row bottom-unit">
-
                 <div class="col-lg-13 get-involved">
-
                     <div class="large-thumb"></div>
-
                     <div class="text-block">
-
                         <div class="text-lockup">
-
                             <h3>Helping You</h3>
-
                             <h2>Get Involved In Yourself</h2>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur.</p>
-
+                            <p> "Right this minute, go set your alarm and lay out everything you need for your morning workout. (Switch on a lamp as soon as your alarm goes off, says fitness blogger Tina Haupert, so you wake up faster.)" -Health</p>
+                            <a href="http://www.health.com/health/gallery/0,,20735338,00.html#get-up-earlier-0">Read More</a>
                             <img src="~/Content/assets/img/strawberry.png">
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="col-lg-7 eating-habits">
-
                     <div class="small-thumb"></div>
-
                     <div class="text-block">
-
                         <div class="text-lockup">
-
                             <h3>Improve Your</h3>
-
                             <h2>Eating Habits</h2>
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-
+                            <p>"Excess sugar and fructose consumption, which is common if you eat a lot of processed foods, is linked to insulin resistance, high triglycerides, heart disease, diabetes, obesity, and cancer." -Peek Fitness </p>
+                            <a href="https://fitness.mercola.com/sites/fitness/archive/2015/03/20/bad-eating-habits.aspx">Read More</a>
                             <img src="~/Content/assets/img/avocado.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="closer">
+            <div class="closing-claim">
+                <h1>We believe in leading a healthy lifetsyle.</h1>
+                <p>And we hope we've sent you on your way to doing so...</p>
+            </div>
+        </div>
+        <div class="bg-angled-left"></div>
+        <div class="bg-angled-right"></div>
+        <div class="container footer-lockup">
+            <div class="red-angle"></div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <h3>About us</h3>
+                    <p>We are a team of Miami University Engineering students, just looking to help our users stay healthy and help our grades to stay high. </p>
+                    <p></p>
+                </div>
+                <div class="col-lg-8">
+                    <h3></h3>
+                    <p> </p>
+                </div>
+                <!---
+                    <div class="col-lg-5">
+
+                        <h3>Stay in touch</h3>
+
+                        <div class="social-icons">
+
+                            <a href=""><i class="icon-facebook"></i></a>
+                            <a href=""><i class="icon-twitter"></i></a>
+                            <a href=""><i class="icon-youtube-play"></i></a>
+                            <a href=""><i class="icon-linkedin"></i></a>
 
                         </div>
 
                     </div>
 
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer>
-
-        <div class="closer">
-
-            <div class="closing-claim">
-
-                <h1>We believe in leading a healthy lifetsyle.</h1>
-
-                <p>And we hope we've sent you on your way to doing so...</p>
-
-            </div>
-
-        </div>
-
-        <div class="bg-angled-left"></div>
-
-        <div class="bg-angled-right"></div>
-
-        <div class="container footer-lockup">
-
-            <div class="red-angle"></div>
-
-            <div class="row">
-
-                <div class="col-lg-7">
-
-                    <h3>Resources</h3>
-
-                    <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
 
                 </div>
+                        -->
+                <!---
+                <div class="row">
 
-                <div class="col-lg-8">
+                    <div class="col-lg-13 col-lg-offset-7">
 
-                    <h3>About us</h3>
+                        <form>
 
-                    <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                            <input type="text" placeholder="Your Name">
 
-                </div>
+                            <input type="email" placeholder="Your Email" spellcheck="false">
 
-                <div class="col-lg-5">
+                            <button class="newsletter-btn" type="submit" value="Join Newsletter">Join Newsletter<i class="icon-chevron-circle-right"></i></button>
 
-                    <h3>Stay in touch</h3>
-
-                    <div class="social-icons">
-
-                        <a href=""><i class="icon-facebook"></i></a>
-                        <a href=""><i class="icon-twitter"></i></a>
-                        <a href=""><i class="icon-youtube-play"></i></a>
-                        <a href=""><i class="icon-linkedin"></i></a>
+                        </form>
 
                     </div>
 
                 </div>
-
+                    -->
             </div>
-
-            <div class="row">
-
-                <div class="col-lg-13 col-lg-offset-7">
-
-                    <form>
-
-                        <input type="text" placeholder="Your Name">
-
-                        <input type="email" placeholder="Your Email" spellcheck="false">
-
-                        <button class="newsletter-btn" type="submit" value="Join Newsletter">Join Newsletter<i class="icon-chevron-circle-right"></i></button>
-
-                    </form>
-
-                </div>
-
-            </div>
-
-        </div>
-
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="~/Content/assets/js/functions.min.js"></script>
 
-
 </body>
+</html>
