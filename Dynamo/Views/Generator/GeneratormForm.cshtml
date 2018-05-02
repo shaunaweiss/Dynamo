@@ -1,0 +1,135 @@
+﻿
+
+@model Helper.External.Model.User
+@{
+    Helper.External.Model.User details= (Helper.External.Model.User)ViewBag.User;
+}
+<div class="container-fluid">
+    <h1>
+        Generate Your Workout
+    </h1>
+    @{
+
+        if (IsPost)
+        {
+            <h1> User Details </h1>
+                <table stye="border 1px solid black; border-collapse collapse;">
+                    <tr>
+                        <td>Gender: </td>
+                        <td> @details._gender </td>
+                    </tr>
+                    <tr>
+                        <td>Gender: </td>
+                        <td> @details._age</td>
+                    </tr>
+
+                    <tr>
+                        <td> Current Weight: </td>
+                        <td> @details._currentweight </td>
+                    </tr>
+                    <tr>
+                        <td> Target Weight: </td>
+                        <td> @details._targetweight</td>
+                    </tr>
+                    <tr>
+                        <td> Height: </td>
+                        <td> @details._height </td>
+                    </tr>
+                    <tr>
+                        <td> Workout Focus: </td>
+                        <td> @details._focus</td>
+                    </tr>
+                    <tr>
+                        <td> Workout Type: </td>
+                        <td> @details._type </td>
+                    </tr>
+                    <tr>
+                        <td> Difficulty Level: </td>
+                        <td> @details._difficulty</td>
+                    </tr>
+                </table>
+
+        }
+    }
+    @using (Html.BeginForm("GeneratorForm", "Home", FormMethod.Post))
+            {
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Person Details</th>
+            </tr>
+            <tr>
+                <td>Current Weight: </td>
+                <td>
+                    @Html.TextBoxFor(m => m._currentweight)
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Target Weight: </td>
+                <td>
+                    @Html.TextBoxFor(m => m._targetweight)
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Height: </td>
+                <td>
+                    @Html.TextBoxFor(m => m._height)
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Gender: </td>
+                <td>
+                    @Html.DropDownListFor(m => m._gender, new List<SelectListItem>
+                   { new SelectListItem{Text="Male", Value="Male"},
+                     new SelectListItem{Text="Female", Value="Female"}}, "Please select")
+                </td>
+            </tr>
+            <tr>
+                <td>Age: </td>
+                <td>
+                    @Html.TextBoxFor(m => m._age)
+                </td>
+            </tr>
+
+            <tr></tr>
+            <tr>
+                <td>Type: </td>
+                <td>
+                    @Html.DropDownListFor(m => m._type, new List<SelectListItem>
+                   { new SelectListItem{Text="CARDIO", Value="CARDIO"},
+                     new SelectListItem{Text="STRENGTH", Value="STRENGTH"},
+                     new SelectListItem { Text = "FLEXIBILITY", Value = "FLEXIBILITY" }}, "Please select")
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Focus: </td>
+                <td>
+                    @Html.DropDownListFor(m => m._focus, new List<SelectListItem>
+                   { new SelectListItem{Text="UPPERBODY", Value="UPPERBODY"},
+                     new SelectListItem{Text="CORE", Value="CORE"},
+                     new SelectListItem{Text="LOWERBODY", Value="LOWERB"},
+           }, "Please select")
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Difficulty Level: </td>
+                <td>
+                    @Html.DropDownListFor(m => m._difficulty, new List<SelectListItem>
+                   { new SelectListItem{Text="BEGINNER", Value="1"},
+                     new SelectListItem{Text="INTERMEDIATE", Value="2"},
+                     new SelectListItem{Text="ADVANCED", Value="3"},
+           }, "Please select")
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    }
+
+</div>

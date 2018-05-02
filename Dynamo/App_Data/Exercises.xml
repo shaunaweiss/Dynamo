@@ -1,0 +1,1265 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Exercises>
+  <Exercise>
+    <Name>Hyper Extension</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  
+  </Exercise>
+  <Exercise>
+    <Name>Lat Pull Down</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  
+  </Exercise>
+  <Exercise>
+    <Name>DumbBell Shoulder Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Pull Ups</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>TrapBar Deadlift</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Dumbbell Chest Flys</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Dumbbell Chest Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Dumbbell Pullover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Incline Dumbbell Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Incline Dumbbell Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Push Ups</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Chest Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Decline Chest Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Incline Chest Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bench Press  Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bench Press Hammer</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Cable Crossover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Cable Pullover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Chest Press Hammer</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Chest Press Machine</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Bench</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Press Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Cable Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Cable Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Dumbbell Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Dumbbell Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Decline Press Hammer</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Pullover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Flat Cable Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Flat Cable Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Flat Dumbbell Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Flat Dumbbell Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Incline Bench Press Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Incline Dumbbell Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Incline Dumbbell Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Incline Press Hammer</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Incline Press Machine</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Push Ups With Medicine Ball</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Seated Cable Fly</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Seated Cable Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Standing Cable Press</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball 1 Leg Knee Drive</Name>
+    <Type> STRENGTH </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Plank</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Floor Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ab Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ab Crunch Machine</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ab Crunch Obliques</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Band Front Raise</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Band Lateral Raise</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Crunch Obliques</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Crunch Traditional</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Oblique Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Plank</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Push Ups</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Reverse Curls</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Russian Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Side Flexion with Medicine Ball</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Side Lifts</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Spinal Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Squeeze</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bench Crunches</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bent Arm Medicine Ball Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Double Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Side Bends</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hanging Leg Raises</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Knee Raises</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Obliques Parallel Bar</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Kneeling Cable Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Kneeling Oblique Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lateral Bend with Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Leg Tucks on the Floor</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lying Side Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Medicine Ball Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Medicine Ball Oblique Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Medicine Ball Russian Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Roman Chair Knee Lifts</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Roman Chair Side Bends</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Russian Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Scissor Kicks</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Seated Leg Tucks</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Side Bridge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Slant Board Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Slant Board Crunch with Medicine Ball</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Slant Board Oblique Twist</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Slant Board Reverse Crunch</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Straight Arm Medicine Ball Side Bend</Name>
+    <Type> STRENGTH </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squats</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Mountain Climber</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Box Jump</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Walking Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Barbell Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Landmine Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dips</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hip Thrust</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Dumbbell Squats</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Leg Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Wall Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Forward Walking</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Lying Leg Extension</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Band Standing Leg Extension</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Barbell Bulgarian Split Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Barbell Lateral Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dead Lift</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Bulgarian Split Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Dead Lift</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Hack Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Lateral Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Lunge</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Lunge Crossover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Lunge Walking</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Dumbbell Sumo Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Front Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hack Front Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hack Squat</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Leg Extension</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Leg Press Machine</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Smith Machine</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Backward</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Crossover</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Diagonal</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Forward</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Side</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Side Reaching</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lunge Walking</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Power Clean with Dumbbells</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Split Squat Jump</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat Barbell</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat and Press with Medicine Ball</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat Jump</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat Thrusts</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat with Medicine Ball Push</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squats Bodyweight</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ball Band Front Raise</Name>
+    <Type> STRENGTH </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Downward Facing Dog</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>3 Point Neck Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Overhead Tricep and Shoulder Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>ForeArm and Finger Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Overhead Chest and Lat Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Standing Chest against Wall</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Arm Cross Rhomboid Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Torso Rotation</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Lateral Bends with Reach</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Upward Facing Plank</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Chest Opener with Band</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Saddle Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Eagle Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Cow Face Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Threaded Needle Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Cat Cow Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Wide Legged Forward Bend with Clasp</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Shoulder BAnd Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Child Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Snake Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bridge with Clasp</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bridge Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bow</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Cobra</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Leg Crossover Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bird Dog</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Medicine Ball Rotation on a Ball</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Side Bridge</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Seated Torso Twist</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Woodchops</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Ab Roll</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Spine Twist</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Standing Cat Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Modified Warrior on a Ball</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Humble Warrior</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Extended Puppy Pose</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hamstring Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Quad Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Hip Figure 4 Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Pigeon Stretch</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Knee Drop</Name>
+    <Type> FLEXIBILITY </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Driver's Push up</Name>
+    <Type> CARDIO </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Donkey Kick</Name>
+    <Type> CARDIO </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Inchworm</Name>
+    <Type> CARDIO </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Uppercut</Name>
+    <Type> CARDIO </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>3 Hops to Push-Up</Name>
+    <Type> CARDIO </Type>
+    <Focus> UPPERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Burpee</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Bicycle Crunch</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Squat Jump</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Burpee Jump</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Short Sprint</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Plank Jacks</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Plank to Knee Tap</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Jumping Jack</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Corkscrew</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Wide Mountain Climber</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Flutter Kick</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Sprinter Sit Up</Name>
+    <Type> CARDIO </Type>
+    <Focus> CORE </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Skaters</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Step Up</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Single Leg Hop</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Runner's Skip</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Tuck Jump</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Long Jump with Jog Back</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Power Skip</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Mountain Climber Twist</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>But Kicks</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Fast feer Shuffle</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>High Knee</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+  <Exercise>
+    <Name>Invisble Jump Rope</Name>
+    <Type> CARDIO </Type>
+    <Focus> LOWERBODY </Focus> 
+		<Description> TODO </Description>
+  </Exercise>
+</Exercises>

@@ -1,0 +1,174 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="mobile-shift">
+    <header id="generator">
+        <div class="claim-lockup">
+            <div class="claim">
+            </div>
+        </div>
+        <div class="angled-overlay"></div>
+
+    </header>
+    @model Helper.External.Model.User
+    @{
+        ViewBag.Title = "Create a User";
+        Helper.External.Model.User details = (Helper.External.Model.User)ViewBag.User;
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <secion id="generator" class="grid">
+        <div class="container-fluid">
+            <h1>
+                Generate Your Workout
+            </h1>
+            @{
+
+                if (IsPost)
+                {
+                    <h1> User Details </h1>
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Gender: </td>
+                            <td> @details._gender </td>
+                        </tr>
+                        <tr>
+                            <td> Current Weight: </td>
+                            <td> @details._currentweight </td>
+                        </tr>
+                        <tr>
+                            <td> Target Weight: </td>
+                            <td> @details._targetweight</td>
+                        </tr>
+                        <tr>
+                            <td> Height: </td>
+                            <td> @details._height </td>
+                        </tr>
+                        <tr>
+                            <td> Workout Focus: </td>
+                            <td> @details._focus</td>
+                        </tr>
+                        <tr>
+                            <td> Workout Type: </td>
+                            <td> @details._type </td>
+                        </tr>
+                        <tr>
+                            <td> Difficulty Level: </td>
+                            <td> @details._difficulty</td>
+                        </tr>
+                        <tr>
+                            <td> User BMI: </td>
+                            <td> @details.BMI</td>
+                        </tr>
+                        <tr>
+                            <td> Distance from target: </td>
+                            <td> @details.getDifferencce</td>
+                        </tr>
+
+                        @**@This is our attempt to print out the routines for a user
+                             @foreach (var item in details.userRoutine)
+                             {
+                             <tr>
+                                 <td> @item.name</td>
+                                 <td> @item.type</td>
+                                 <td> @item.focus</td>
+                            </tr>
+                             }
+                        
+                    </table>
+                    <h1> Workout Generated </h1>
+                   @* @Html.Action("ExerciseList") *@
+
+                }
+            }
+            @using (Html.BeginForm("Index", "Generator", FormMethod.Post))
+            {
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <th colspan="2" align="center">Person Details</th>
+                    </tr>
+                    <tr>
+                        <td>Current Weight: </td>
+                        <td>
+                            @Html.TextBoxFor(m => m._currentweight)
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Target Weight: </td>
+                        <td>
+                            @Html.TextBoxFor(m => m._targetweight)
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Height: </td>
+                        <td>
+                            @Html.TextBoxFor(m => m._height)
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Gender: </td>
+                        <td>
+                            @Html.DropDownListFor(m => m._gender, new List<SelectListItem>
+                            { new SelectListItem{Text="Male", Value="MALE"},
+                            new SelectListItem{Text="Female", Value="FEMALE"}}, "Please select")
+
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Type: </td>
+                        <td>
+                            <!--If you want to only select one type of workout-->
+                            @* @Html.DropDownListFor(m => m._type, new List<SelectListItem>
+                                {new SelectListItem{Text="CARDIO", Value="C"},
+                                ectListItem{Text="STRENGTH", Value="S"},
+                                ectListItem { Text = "FLEXIBILITY", Value = "F" }}, "Please select") *@
+                            @Html.ListBoxFor(m => m._type, new List<SelectListItem>
+                             { new SelectListItem{Text="CARDIO", Value="CORE"},
+                             new SelectListItem{Text="STRENGTH", Value="STRENGTH"},
+                             new SelectListItem { Text = "FLEXIBILITY", Value = "FLEXIBILITY" }}, "Please select")
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Focus: </td>
+                        <td>
+                            <!--If you want to only select only one focus area-->
+                            @*@Html.DropDownListFor(m => m._focus, new List<SelectListItem>
+                                { new SelectListItem{Text="UPPERBODY", Value="UB"},
+                                new SelectListItem{Text="CORE", Value="CO"},
+                                new SelectListItem{Text="LOWERBODY", Value="LB"}, }, "Please select")*@
+                            @Html.ListBoxFor(m => m._focus, new List<SelectListItem>
+                            { new SelectListItem{Text="UPPERBODY", Value="UPPERBODY"},
+                            new SelectListItem{Text="CORE", Value="CORE"},
+                            new SelectListItem{Text="LOWERBODY", Value="LOWERBODY"}, }, "Please select")
+
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Difficulty Level: </td>
+                        <td>
+                            @Html.DropDownListFor(m => m._difficulty, new List<SelectListItem>
+                            { new SelectListItem{Text="BEGINNER", Value="1"},
+                            new SelectListItem{Text="INTERMEDIATE", Value="2"},
+                            new SelectListItem{Text="ADVANCED", Value="3"},
+                            }, "Please select")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Submit" /></td>
+                    </tr>
+                </table>
+            }
+
+        </div>
+    </secion>
+</body>
+</html>
