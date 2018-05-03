@@ -44,7 +44,6 @@ namespace Helper.External.Model
                         e.reps = 15;
                         e.sets = 4;
                     }
-
                 }
             }
             Random rnd = new Random();
