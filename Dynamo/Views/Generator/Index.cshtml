@@ -24,93 +24,10 @@
             <h1>
                 Generate Your Workout
             </h1>
-            @{
-
-                if (IsPost)
-                {
-                    <h1> User Details </h1>
-                    <table class="table table-bordered">
-                        <tr>
-                            <td>Gender: </td>
-                            <td> @details._gender </td>
-                        </tr>
-                        <tr>
-                            <td> Current Weight: </td>
-                            <td> @details._currentweight </td>
-                        </tr>
-                        <tr>
-                            <td> Target Weight: </td>
-                            <td> @details._targetweight</td>
-                        </tr>
-                        <tr>
-                            <td> Height: </td>
-                            <td> @details._height </td>
-                        </tr>
-                        <tr>
-                            <td> Workout Focus: </td>
-                            <td> @details._focus</td>
-                        </tr>
-                        <tr>
-                            <td> Workout Type: </td>
-                            <td> @details._type </td>
-                        </tr>
-                        <tr>
-                            <td> Difficulty Level: </td>
-                            <td> @details._difficulty</td>
-                        </tr>
-                        <tr>
-                            <td> User BMI: </td>
-                            <td> @details.BMI</td>
-                        </tr>
-                        <tr>
-                            <td> Distance from target: </td>
-                            <td> @details.getDifferencce</td>
-                        </tr>
-
-                        @**@This is our attempt to print out the routines for a user
-                             @foreach (var item in details.userRoutine)
-                             {
-                                 if (details._focus.Equals(item.focus) && details._type.Equals(item.type))
-                                 {
-                                    <tr>
-                                        <td> @item.name</td>
-                                        <td> @item.type</td>
-                                        <td> @item.focus</td>
-                                        <td> @item.description</td>
-
-                                        @if(details._difficulty.Equals("1"))
-                                        {
-                                            item.reps = 5;
-                                            item.sets = 2;
-
-                                        }
-                                        @if (details._difficulty.Equals("2"))
-                                        {
-                                             item.reps = 10;
-                                             item.sets = 3;
-                                        }
-                                        @if (details._difficulty.Equals("3"))
-                                        {
-                                              item.reps = 15;
-                                              item.sets = 4;
-                                        }
-                                        <td> @item.reps</td>
-                                        <td> @item.sets</td>
-
-                                    </tr>
-                                 }
-
-                             }
-                        
-                    </table>
-                    <h1> Workout Generated </h1>
-                   @* @Html.Action("ExerciseList") *@
-
-                }
-            }
-            @using (Html.BeginForm("Index", "Generator", FormMethod.Post))
+           
+            @using (Html.BeginForm("ViewModel", "Generator", FormMethod.Post))
             {
-                <table cellpadding="0" cellspacing="0">
+                <table cellpadding="2" cellspacing="2">
                     <tr>
                         <th colspan="2" align="center">Person Details</th>
                     </tr>
@@ -125,6 +42,13 @@
                         <td>Target Weight: </td>
                         <td>
                             @Html.TextBoxFor(m => m._targetweight)
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>Age: </td>
+                        <td>
+                            @Html.TextBoxFor(m => m._age)
                         </td>
                     </tr>
                     <tr></tr>

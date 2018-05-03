@@ -18,45 +18,6 @@ namespace Dynamo.Controllers
             return View();
         }
 
-        public ActionResult About()
-        {
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-        public ActionResult ExerciseList()
-        {
-            XMLReader readXML = new XMLReader();
-            var data = readXML.ReturnListOfExercises();
-            return View(data);
-        }
-
-        /*
-        public ActionResult ViewModel()
-        {
-            ViewModel vm = new ViewModel();
-            vm.user = user
-            return View(vm);
-        }
-
-        */
-
-        //[HttpPost]
-        /*
-        public ActionResult ExerciseList(string focus, string type)
-        {   
-            XMLReader readXML = new XMLReader();
-            var data = readXML.ReturnListOfExercises(focus, type);
-            return View(data);
-        }
-        */
     }
 
 

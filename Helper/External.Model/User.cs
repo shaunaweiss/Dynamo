@@ -21,19 +21,17 @@ namespace Helper.External.Model
         public String _difficulty { get; set; }
        
 
-        public List<Exercises> userRoutine { get; set; }
-
-        public User(string _type, string _focus)
-        {
-            this._type = _type;
-            this._focus = _focus;
-        }
-
+        // Empty Constructor
         public User()
         {
-
+            this._gender = _gender;
+            this._type = _type;
+            this._focus = _focus;
+            this._currentweight = _currentweight;
+            this._targetweight = _targetweight;
+            this._height = _height;
+            this._difficulty = _difficulty;
         }
-
 
         public double BMI
         {
@@ -43,18 +41,5 @@ namespace Helper.External.Model
         {
             get { return Math.Abs(_targetweight - _currentweight); }
         }
-
-        /*
-        public User (string _type, string _focus)
-        {
-            this._type = _type;
-            this._focus = _focus;
-        }
-
-        public User()
-        {
-
-        }
-        */
     }
 }

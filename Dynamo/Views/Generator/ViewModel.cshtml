@@ -1,12 +1,90 @@
-﻿@model Dynamo.Models.ViewModel
+﻿
+<!DOCTYPE html>
+<html lang="en">
 
-<div>
-    <h4>ViewModel</h4>
-    <hr />
-    <dl class="dl-horizontal">
-    </dl>
-</div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+<body class="mobile-shift">
+    <header id="generator">
+        <div class="claim-lockup">
+            <div class="claim">
+            </div>
+        </div>
+        <div class="angled-overlay"></div>
+
+    </header>
+    @model Dynamo.Models.ViewModel
+    @{
+        ViewBag.Title = "Create a User";
+        Dynamo.Models.ViewModel details = (Dynamo.Models.ViewModel)ViewBag.vwUser;
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <secion id="generator" class="grid">
+        <div class="container-fluid">
+            <h1>
+                Generate Your Workout
+            </h1>
+            @{
+
+                if (IsPost)
+                {
+                    <h1> User Details </h1>
+                    <table class="table table-bordered">
+                        <tr>
+                            <td>Gender: </td>
+                            <td> @details.user._gender </td>
+                        </tr>
+                        <tr>
+                            <td>Gender: </td>
+                            <td> @details.user._age </td>
+                        </tr>
+                        <tr>
+                            <td> Current Weight: </td>
+                            <td> @details.user._currentweight </td>
+                        </tr>
+                        <tr>
+                            <td> Target Weight: </td>
+                            <td> @details.user._targetweight</td>
+                        </tr>
+                        <tr>
+                            <td> Height: </td>
+                            <td> @details.user._height </td>
+                        </tr>
+                        <tr>
+                            <td> Workout Focus: </td>
+                            <td> @details.user._focus</td>
+                        </tr>
+                        <tr>
+                            <td> Workout Type: </td>
+                            <td> @details.user._type </td>
+                        </tr>
+                        <tr>
+                            <td> Difficulty Level: </td>
+                            <td> @details.user._difficulty</td>
+                        </tr>
+                        <tr>
+                            <td> User BMI: </td>
+                            <td> @details.user.BMI</td>
+                        </tr>
+                        <tr>
+                            <td> Distance from target: </td>
+                            <td> @details.user.getDifferencce</td>
+                        </tr>
+
+                        @*This is our attempt to print out the routines for a user*@
+                        @foreach (var item in details.routines)
+                        {
+                                <tr>
+                                    <td> @item.name </td>
+                                    <td> @item.type </td>
+                                    <td> @item.focus </td>
+                                    <td> @item.description </td>
+                                    <td> @item.reps </td>
+                                    <td> @item.sets</td>
+                                </tr>
+                        }
+
+                    </table>
+                    <h1> Workout Generated </h1>
+
+                }
+            }
