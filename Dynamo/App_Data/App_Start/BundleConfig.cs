@@ -35,7 +35,7 @@ namespace Dynamo.App_Start
 
                       /*"~/Content/bootstrap.css"*/
 
-                      "~/Content/assets/css/main.min.css"));
+                      "~/Content/dist/assets/css/main.min.css"));
         }
     }
 }
