@@ -70,11 +70,36 @@
                         @**@This is our attempt to print out the routines for a user
                              @foreach (var item in details.userRoutine)
                              {
-                             <tr>
-                                 <td> @item.name</td>
-                                 <td> @item.type</td>
-                                 <td> @item.focus</td>
-                            </tr>
+                                 if (details._focus.Equals(item.focus) && details._type.Equals(item.type))
+                                 {
+                                    <tr>
+                                        <td> @item.name</td>
+                                        <td> @item.type</td>
+                                        <td> @item.focus</td>
+                                        <td> @item.description</td>
+
+                                        @if(details._difficulty.Equals("1"))
+                                        {
+                                            item.reps = 5;
+                                            item.sets = 2;
+
+                                        }
+                                        @if (details._difficulty.Equals("2"))
+                                        {
+                                             item.reps = 10;
+                                             item.sets = 3;
+                                        }
+                                        @if (details._difficulty.Equals("3"))
+                                        {
+                                              item.reps = 15;
+                                              item.sets = 4;
+                                        }
+                                        <td> @item.reps</td>
+                                        <td> @item.sets</td>
+
+                                    </tr>
+                                 }
+
                              }
                         
                     </table>
@@ -129,9 +154,9 @@
                                 ectListItem{Text="STRENGTH", Value="S"},
                                 ectListItem { Text = "FLEXIBILITY", Value = "F" }}, "Please select") *@
                             @Html.ListBoxFor(m => m._type, new List<SelectListItem>
-                             { new SelectListItem{Text="CARDIO", Value="CORE"},
-                             new SelectListItem{Text="STRENGTH", Value="STRENGTH"},
-                             new SelectListItem { Text = "FLEXIBILITY", Value = "FLEXIBILITY" }}, "Please select")
+                             { new SelectListItem{Text="CARDIO", Value=" CORE "},
+                             new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
+                             new SelectListItem { Text = "FLEXIBILITY", Value = " FLEXIBILITY " }}, "Please select")
                         </td>
                     </tr>
                     <tr></tr>
@@ -144,9 +169,9 @@
                                 new SelectListItem{Text="CORE", Value="CO"},
                                 new SelectListItem{Text="LOWERBODY", Value="LB"}, }, "Please select")*@
                             @Html.ListBoxFor(m => m._focus, new List<SelectListItem>
-                            { new SelectListItem{Text="UPPERBODY", Value="UPPERBODY"},
-                            new SelectListItem{Text="CORE", Value="CORE"},
-                            new SelectListItem{Text="LOWERBODY", Value="LOWERBODY"}, }, "Please select")
+                            { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY "},
+                            new SelectListItem{Text="CORE", Value=" CORE "},
+                            new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
 
                         </td>
                     </tr>

@@ -21,6 +21,8 @@ namespace Dynamo.Controllers
         [HttpPost]
         public ActionResult Index(User u)
         {
+
+            //ViewModel vm = new ViewModel(u);
             string gender = u._gender;
             string type = u._type;
             int currentWeight = u._currentweight;
@@ -29,6 +31,7 @@ namespace Dynamo.Controllers
             string difficulty = u._difficulty;
             string focus = u._focus;
             u.userRoutine= getExerciseList();
+            
 
             //Send user information to viewmodel
             //ViewModel vwUser = new ViewModel();
