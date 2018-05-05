@@ -4,7 +4,7 @@
     <Name>Lat Pull Down</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Kneel in front of door with resistance band attached to the top of the door. Begin with arms extended and pointing towards the top of the door. Bring your arms to your chest.</Description>
+    <Description>Kneel in front of a door with resistance band attached to the top of the door. Begin with arms extended and pointing towards the top of the door. Bring your arms to your chest.</Description>
   </Exercise>
   <Exercise>
     <Name>Dumbbell Shoulder Press</Name>
@@ -22,25 +22,25 @@
     <Name>Bar Deadlift</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Begin squatted with arms extending touching a bar with your choice of weights attached. Smoothly stand up, pulling the bar with you, but keeping your arms extended.</Description>
+    <Description>Begin squatted with arms extended touching a bar with your choice of weights attached. Smoothly stand up, pulling the bar with you, but keeping your arms extended.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Dumbbell Chest Flys</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay with your back flat on an exercise ball and knees bent at a 90 degree angle in front of you. Hold dumbbells with arms extended outwards. While keeping them extended, move your arms to above your chest until the dumbbells touch.</Description>
+    <Description>Lay with your back flat on an exercise ball and knees bent 90 degrees in front of you. Hold dumbbells with arms extended outwards. While keeping them extended, move your arms to above your chest until the dumbbells touch.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Dumbbell Chest Press</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay with your back flat on an exercise ball and knees bent at a 90 degree angle in front of you. Hold dumbbells above your chest with elbows bent 90 degrees. Slowly push the dumbbells directly upwards.</Description>
+    <Description>Lay with your back flat on an exercise ball and knees bent 90 degrees in front of you. Hold dumbbells above your chest with elbows bent 90 degrees. Slowly push the dumbbells directly upwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Dumbbell Pullover</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay with your back flat on an exercise ball and knees bent at a 90 degree angle in front of you. Hold one dumbbell with both of your arms extended directly above you. Move your arms backwards and slowly move the dumbell to right next to the top of your head.</Description>
+    <Description>Lay with your back flat on an exercise ball and knees bent 90 degrees in front of you. Hold one dumbbell with both of your arms extended directly above you. Move your arms backwards and slowly move the dumbell to right next to the top of your head.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Incline Dumbbell Fly</Name>
@@ -64,61 +64,61 @@
     <Name>Band Chest Press</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Attach fitness band to door. Hold each end of the band and face away from the door. Begin with hands next to chest, then extend your arms forward.</Description>
+    <Description>Attach a fitness band to a door. Hold each end of the band and face away from the door. Begin with hands next to chest, then extend your arms forward.</Description>
   </Exercise>
   <Exercise>
     <Name>Band Decline Chest Press</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Attach fitness band to door. Hold each end of the band and face away from the door, slightly leaning forward. Begin with hands next to chest, then extend your arms diagonally forward and towards the ground.</Description>
+    <Description>Attach a fitness band to a door. Hold each end of the band and face away from the door, slightly leaning forward. Begin with hands next to chest, then extend your arms diagonally forward and towards the ground.</Description>
   </Exercise>
   <Exercise>
     <Name>Band Incline Chest Press</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Attach fitness band to door. Hold each end of the band and face away from the door. Begin with hands next to chest, then extend your arms diagonally forward and towards the ceiling.</Description>
+    <Description>Attach a fitness band to a door. Hold each end of the band and face away from the door. Begin with hands next to chest, then extend your arms diagonally forward and towards the ceiling.</Description>
   </Exercise>
   <Exercise>
     <Name>Bench Press Barbell</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay with back on bench press or similar item and kness bent at 90 degrees. Hold dumbbells above your chest with elbows bent 90 degrees. Slowly push the dumbbells directly upwards.</Description>
+    <Description>Lay with your back on a bench press or similar item and knees bent at 90 degrees. Hold dumbbells above your chest with elbows bent 90 degrees. Slowly push the dumbbells directly upwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Cable Pullover</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Attach fitness band to the top of door. Begin with arms extended towards the top of the door. Lean forward with butt behind your knees and shoulders in front of your knees. Pull the band towards your thighs.</Description>
+    <Description>Attach a fitness band to the top of a door. Begin with arms extended towards the top of the door. Lean forward with your butt behind your knees and shoulders in front of your knees. Pull the band towards your thighs.</Description>
   </Exercise>
   <Exercise>
     <Name>Press Barbell</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Begin standing holding barbell at shoulder height. Slowly push the barbell upwards.</Description>
+    <Description>Begin standing up straight and holding a barbell at shoulder height. Slowly push the barbell upwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Flat Band Press</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay on your back with fitness band beneath you going shoulder to shoulder. Hold one end in each hand. Begin with hands by chest, and then extend your arms upward.</Description>
+    <Description>Lay on your back with a fitness band beneath you going shoulder to shoulder. Hold one end in each hand. Begin with hands by chest, and then extend your arms upward.</Description>
   </Exercise>
   <Exercise>
     <Name>Incline Bench Press Barbell</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay with your back inclined on bench press and knees bent in front of you. Hold barbell above your chest with elbows bent 90 degrees. Slowly push the barbel directly upwards.</Description>
+    <Description>Lay with your back inclined on a bench press and knees bent in front of you. Hold a barbell above your chest with elbows bent 90 degrees. Slowly push the barbell directly upwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Push Ups With Medicine Ball</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Lay face down on ground. Put a medicine ball where your chest would touch the ground. put both hands on medicine ball and push yourself upwards.</Description>
+    <Description>Lay face down on ground. Put a medicine ball where your chest would touch the ground. Put both hands on medicine ball and push yourself upwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball 1 Leg Knee Drive</Name>
     <Type> STRENGTH </Type>
     <Focus> UPPERBODY </Focus>
-    <Description>Put both hands on a exercise ball and lean forward. While balancing, slowly bring one knee at a time towards your chest.</Description>
+    <Description>Put both hands on an exercise ball and lean forward. While balancing, slowly bring one knee at a time towards your chest.</Description>
   </Exercise>
   <Exercise>
     <Name>Plank</Name>
@@ -130,7 +130,7 @@
     <Name>Floor Crunch</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lay with back on the ground and knees upward, supporting your lower body with your feet flat on the ground. Put your hands behind your head. Using your core, pull yourself upwards until your head is a little less than a foot off the ground.</Description>
+    <Description>Lay with your back on the ground and knees upward, supporting your lower body with your feet flat on the ground. Put your hands behind your head. Using your core, pull yourself upwards until your head is a little less than a foot off the ground.</Description>
   </Exercise>
   <Exercise>
     <Name>Ab Crunch Obliques</Name>
@@ -142,31 +142,31 @@
     <Name>Ball Band Front Raise</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Put fitness band beneath your feet and stand upright. Hold the middle of the fitness band starting at your thighs with arms extended. Keep your core tight and slowly move your arms forward, ending with your arms extending directly forward from your shoulders.</Description>
+    <Description>Put a fitness band beneath your feet and stand upright. Hold the middle of the fitness band starting at your thighs with arms extended. Keep your core tight and slowly move your arms forward, ending with your arms extending directly forward from your shoulders.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Band Lateral Raise</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Sit upright on fitness ball with fitness band underneath the ball. Starting with your arms by your side holding the ends of the fitness band, keep your core tight and slowly raise your arms.</Description>
+    <Description>Sit upright on a fitness ball with a fitness band underneath the ball. Starting with your arms by your side holding the ends of the fitness band, keep your core tight and slowly raise your arms.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Crunch</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lay with your back flat on an exercise ball and knees bent at a 90 degree angle in front of you. Put your hands behind your head. Using your core, pull your upperbody towards your knees.</Description>
+    <Description>Lay with your back flat on an exercise ball and knees bent 90 degrees in front of you. Put your hands behind your head. Using your core, pull your upperbody towards your knees.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Crunch Obliques</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lay slanted with your side on a exercise ball. Put your hands behind your head. Using the sides of your abs, slowly tilt your upperbody towards being level with the ground.</Description>
+    <Description>Lay slanted with your side on an exercise ball. Put your hands behind your head. Using the sides of your abs, slowly tilt your upperbody towards being level with the ground.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Plank</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lean slanted on a exercise ball, supporting yourself with your forearms. Keep your body straight and your core tight, and hold for as long as you can.</Description>
+    <Description>Lean slanted on an exercise ball, supporting yourself with your forearms. Keep your body straight and your core tight, and hold for as long as you can.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Push Ups</Name>
@@ -178,19 +178,19 @@
     <Name>Ball Reverse Curls</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lay on your back with your knees up and feet flat on the ground. Hold a medicine ball between your knees pick your feet up and bring your knees toward your shoulders.</Description>
+    <Description>Lay on your back with your knees up and feet flat on the ground. Hold a medicine ball between your knees and pick your feet up and bring your knees toward your shoulders.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Russian Twist</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Sit on the ground with your knees up and feet flat on the ground. Lean slightly back and hold a medicine ball with your hands. At rest, the medicine ball should be held in between your knees and chest. Rotate your upperbody left and right.</Description>
+    <Description>Sit on the ground with your knees up and feet flat on the ground. Lean slightly back and hold a medicine ball with your hands. At rest, the medicine ball should be held between your knees and chest. Rotate your upperbody left and right.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Side Flexion with Medicine Ball</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lean sideways on an exercise ball with you hips touching the exercise ball. Hold a medicine at your chest and slowly lean down so you're more horizontal.</Description>
+    <Description>Lean sideways on an exercise ball with your hips touching the exercise ball. Hold a medicine ball at your chest and slowly lean down so you're more horizontal.</Description>
   </Exercise>
   <Exercise>
     <Name>Ball Side Lifts</Name>
@@ -292,7 +292,7 @@
     <Name>Side Bridge</Name>
     <Type> STRENGTH </Type>
     <Focus> CORE </Focus>
-    <Description>Lay on your side, up on one forearm. Make your body straight and keep your core tight. Drop your hips down, the make your body straight again.</Description>
+    <Description>Lay on your side, up on one forearm. Make your body straight and keep your core tight. Drop your hips down, then make your body straight again.</Description>
   </Exercise>
   <Exercise>
     <Name>Straight Arm Medicine Ball Side Bend</Name>
@@ -460,19 +460,13 @@
     <Name>Dumbbell Sumo Squat</Name>
     <Type> STRENGTH </Type>
     <Focus> LOWERBODY </Focus>
-    <Description>Stand up straight holding one dumbbell in the middle of your body with arms extended. Lower your body, keeping your back upright and directly above your feet. Your butt should go slightly backwards.</Description>
+    <Description>Stand up straight holding one dumbbell in the middle of your body with arms extended down. Lower your body, keeping your back upright and directly above your feet. Your butt should go slightly backwards.</Description>
   </Exercise>
   <Exercise>
     <Name>Front Squat</Name>
     <Type> STRENGTH </Type>
     <Focus> LOWERBODY </Focus>
     <Description>Stand up straight holding a barbell on your shoulders in front of you. Lower your body, keeping your back upright and directly above your feet. Your butt should go slightly backwards.</Description>
-  </Exercise>
-  <Exercise>
-    <Name>Lunge Barbell</Name>
-    <Type> STRENGTH </Type>
-    <Focus> LOWERBODY </Focus>
-    <Description>Take a large step forward and then lower yourself by bending at the knee. For an added workout add a barbell. It should be held up with your hands, but resting slightly on your shoulders.</Description>
   </Exercise>
   <Exercise>
     <Name>Lunge Backward</Name>
@@ -505,7 +499,7 @@
       <Description>Take a large step sideways. Then bend the knee of the leg that is not extended. While you are bending stretch your arms towards the bent knee.</Description>
     </Exercise>
     <Exercise>
-      <Name>Lunge Walking with dumbell</Name>
+      <Name>Lunge Walking with Dumbbell</Name>
       <Type> STRENGTH </Type>
       <Focus> LOWERBODY </Focus>
       <Description>Take a large step forward. Then lower your body by bending at the knee. Instead of returning to the original position take a large step forward with the other leg. Repeat. For an added workout add a small dumbell.</Description>
@@ -520,19 +514,19 @@
       <Name>Squat Barbell</Name>
       <Type> STRENGTH </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Start with a barbell resting on your shoulders but supported with your arms. Then slowly lower yourself into a squating position. Raise back to your feet and repeat.</Description>
+      <Description>Start with a barbell resting on your shoulders but supported with your arms. Then slowly lower yourself into a squatting position. Raise back to your feet and repeat.</Description>
     </Exercise>
     <Exercise>
       <Name>Squat and Press with Medicine Ball</Name>
       <Type> STRENGTH </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Start in a standing position with a medicine ball held at chest level. Then lower yourself into a squating position, medicine still held at chest level. Lastly raise back up, holding the ball above your head.</Description>
+      <Description>Start in a standing position with a medicine ball held at chest level. Then lower yourself into a squatting position, medicine ball still held at chest level. Lastly raise back up, holding the ball above your head.</Description>
     </Exercise>
     <Exercise>
       <Name>Squat Jump</Name>
       <Type> STRENGTH </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Start with your knees slightly bent. Then lower yourself into a squat. From the squat jump up, landing back in a squating position.</Description>
+      <Description>Start with your knees slightly bent. Then lower yourself into a squat. From the squat, jump up and land back in a squatting position.</Description>
     </Exercise>
     <Exercise>
       <Name>Squat Thrusts</Name>
@@ -547,22 +541,16 @@
       <Description>Find a wall and a medicine ball. Start facing the wall and in a squat position. Then raise into a standing position while throwing the ball at the wall. Catch the ball and lower yourself back into a squat.</Description>
     </Exercise>
     <Exercise>
-      <Name>Squats Bodyweight</Name>
-      <Type> STRENGTH </Type>
-      <Focus> LOWERBODY </Focus>
-      <Description>Do a squat while resting a weight on your shoulders, but supported by your hands.</Description>
-    </Exercise>
-    <Exercise>
       <Name>Ball Band Front Raise</Name>
       <Type> STRENGTH </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Find an exercise band. Stand in the middle of its length. Then while holding th eends raise your hands as far as the bands allow.</Description>
+      <Description>Find an exercise band. Stand in the middle of its length. Then while holding the ends raise your hands as far as the bands allow.</Description>
     </Exercise>
     <Exercise>
       <Name>Downward Facing Dog</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Start standing and bend down to touch your toes. Then slowly start walking your hands away form your body until your body looks like an upside down V.</Description>
+      <Description>Start standing and bend down to touch your toes. Then slowly start walking your hands away from your body until your body looks like an upside down V.</Description>
     </Exercise>
     <Exercise>
       <Name>3 Point Neck Stretch</Name>
@@ -577,16 +565,16 @@
       <Description>Bend your arms so that you are touching the back of your shoulder. Then using the other hand push it as far back as comfortable.</Description>
     </Exercise>
     <Exercise>
-      <Name>ForeArm and Finger Stretch</Name>
+      <Name>Forearm and Finger Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Hold your arm stretch out in front of you. Then using the other hand pull back on the wrist until you feel a slight stretch.</Description>
+      <Description>Hold your arm out in front of you. Then using the other hand pull back on the wrist until you feel a slight stretch.</Description>
     </Exercise>
     <Exercise>
       <Name>Overhead Chest and Lat Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Raise your one of your hands above your head. Then lean in the opposite side. Alternate hands and repeat.</Description>
+      <Description>Raise  one of your hands above your head. Then lean to the opposite side. Alternate hands and repeat.</Description>
     </Exercise>
     <Exercise>
       <Name>Standing Chest against Wall</Name>
@@ -610,13 +598,13 @@
       <Name>Lateral Bends with Reach</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Holds your hands above your head making an A. Then lean to the left. Hold it. Then lean to the right. Hold it. Repeat.</Description>
+      <Description>Hold your hands above your head making an A. Then lean to the left. Hold it. Then lean to the right. Hold it. Repeat.</Description>
     </Exercise>
     <Exercise>
       <Name>Upward Facing Plank</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Sit on your but with your arms behind you. Then slowly raise your midsection until you make a 45 degree angle with the floor.</Description>
+      <Description>Sit on your butt with your arms behind you. Then slowly raise your midsection until you make a 45 degree angle with the floor.</Description>
     </Exercise>
     <Exercise>
       <Name>Chest Opener with Band</Name>
@@ -634,19 +622,19 @@
       <Name>Eagle Pose</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Stand on one foot, wrapping the other one around the one on the floor. Your knee should be slightly bent. One arm should be out in front bent at a 90 degree angle. Place the other elbow inside and wrap it around the other arm.</Description>
+      <Description>Stand on one foot, wrapping the other one around the one on the floor. Your knee should be slightly bent. One arm should be out in front bent 90 degrees. Place the other elbow inside and wrap it around the other arm.</Description>
     </Exercise>
     <Exercise>
       <Name>Cow Face Pose</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Start on the floor. Cross one leg over the other so that your knee is resting on top of the other. Then wrap your arm around the bootom of your back. Wrap the other over your shoulder blade. Try to clasp your hands together.</Description>
+      <Description>Start on the floor. Cross one leg over the other so that your knee is resting on top of the other. Then wrap your arm around the bottom of your back. Wrap the other over your shoulder blade. Try to clasp your hands together.</Description>
     </Exercise>
     <Exercise>
       <Name>Threaded Needle Pose</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Get on all fours. Then twist your body at the waist so that you are resting on your shoulder. Rotate the other direction to stretch the other other side.</Description>
+      <Description>Get on all fours. Then twist your body at the waist so that you are resting on your shoulder. Rotate the other direction to stretch the other side.</Description>
     </Exercise>
     <Exercise>
       <Name>Cat Cow Pose</Name>
@@ -658,7 +646,7 @@
       <Name>Wide Legged Forward Bend with Clasp</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> UPPERBODY </Focus>
-      <Description>Start standing with legs spread apart, lightly farther than shoulder length. Then slowly lean forward until your head is between your legs.</Description>
+      <Description>Start standing with legs spread apart, slightly farther than shoulder length. Then slowly lean forward until your head is between your legs.</Description>
     </Exercise>
     <Exercise>
       <Name>Shoulder Stretch</Name>
@@ -706,7 +694,7 @@
       <Name>Leg Crossover Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> CORE </Focus>
-      <Description>Lay on your back then bring cross your leg diagonally over your body. Alternate Legs and repeat.</Description>
+      <Description>Lay on your back then cross your leg diagonally over your body. Alternate legs and repeat.</Description>
     </Exercise>
     <Exercise>
       <Name>Bird Dog</Name>
@@ -730,7 +718,7 @@
       <Name>Woodchops</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> CORE </Focus>
-      <Description>Start in a standing position. Then raise both hands above the left side of your body. Then swing them doen diagonally to your right foot. Alternate sides.</Description>
+      <Description>Start in a standing position. Then raise both hands above the left side of your body. Then swing them down diagonally to your right foot. Alternate sides.</Description>
     </Exercise>
     <Exercise>
       <Name>Spine Twist</Name>
@@ -742,7 +730,7 @@
       <Name>Standing Cat Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> CORE </Focus>
-      <Description>Start with legs slightly bent. Then push your stomach forward. Hold it. Then push your back up out.</Description>
+      <Description>Start with legs slightly bent. Then push your stomach forward. Hold it. Then push your back up.</Description>
     </Exercise>
     <Exercise>
       <Name>Humble Warrior</Name>
@@ -760,7 +748,7 @@
       <Name>Hamstring Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Sit on your butt. Have one leg straight out and cross the other one so your legs make the number four. Then reach as fat as you can towards your toes. Switch leg position and rrepeat.</Description>
+      <Description>Sit on your butt. Have one leg straight out and cross the other one so your legs make the number four. Then reach as far as you can towards your toes. Switch leg position and rrepeat.</Description>
     </Exercise>
     <Exercise>
       <Name>Quad Stretch</Name>
@@ -778,7 +766,7 @@
       <Name>Pigeon Stretch</Name>
       <Type> FLEXIBILITY </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Place one leg inn front of the other. Then lower yourself while making sure that the side of your leg is making contact with the ground. Alternate legs.</Description>
+      <Description>Place one leg in front of the other. Then lower yourself while making sure that the side of your leg is making contact with the ground. Alternate legs.</Description>
     </Exercise>
     <Exercise>
       <Name>Knee Drop</Name>
@@ -910,7 +898,7 @@
       <Name>Squat Jump</Name>
       <Type> CARDIO </Type>
       <Focus> CORE </Focus>
-      <Description>Start standing then lower yourself into a squat. Then from the squatinng position jump as high as you can landing back into a squatinng position.</Description>
+      <Description>Start standing then lower yourself into a squat. Then from the squatting position jump as high as you can landing back into a squatting position.</Description>
     </Exercise>
     <Exercise>
       <Name>Burpee Jump</Name>
@@ -937,7 +925,7 @@
       <Description>Lay on your stomach, but raise yourself slightly using your toes and forearms. Raise your knees to your chest, then return it to its original position. Alternate legs. </Description>
     </Exercise>
     <Exercise>
-      <Name>Jumping Jack</Name>
+      <Name>Jumping Jacks</Name>
       <Type> CARDIO </Type>
       <Focus> CORE </Focus>
       <Description>Jump and stretch out your arms and legs to make the letter X. Then jump back to the original position.</Description>
@@ -976,7 +964,7 @@
       <Name>Step Up</Name>
       <Type> CARDIO </Type>
       <Focus> LOWERBODY </Focus>
-      <Description>Find an elavated surface, like a step or block. Place one foot on top of the surface and the other on the ground. Then place the foot on the ground onto the elavated surface. Finally, return to your original position. This is one step up.</Description>
+      <Description>Find an elevated surface, like a step or block. Place one foot on top of the surface and the other on the ground. Then place the foot on the ground onto the elevated surface. Finally, return to your original position. This is one step up.</Description>
     </Exercise>
     <Exercise>
       <Name>Single Leg Hop</Name>
