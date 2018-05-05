@@ -165,8 +165,6 @@
     <Content Include="Content\assets\js\bootstrap\tooltip.js" />
     <Content Include="Content\assets\js\bootstrap\util.js" />
     <Content Include="Content\assets\js\functions.js" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\dist\assets\css\fonts\icomoon.svg" />
     <Content Include="Content\dist\assets\css\main.css" />
     <Content Include="Content\dist\assets\css\main.min.css" />
@@ -188,8 +186,6 @@
     <Content Include="Content\dist\assets\img\yoga.jpg" />
     <Content Include="Content\dist\assets\js\functions.js" />
     <Content Include="Content\dist\assets\js\functions.min.js" />
-    <Content Include="Content\dist\index.html" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\assets\css\.sass-cache\15cd50099a74694f005e237ca64f9d4ae108f5cc\_-tools-dir.sassc" />
     <Content Include="Content\assets\css\.sass-cache\15cd50099a74694f005e237ca64f9d4ae108f5cc\_fonts.scssc" />
@@ -319,14 +315,6 @@
     <Content Include="Content\assets\img\Fitness.ai" />
     <Content Include="Content\assets\img\_DS_Store" />
     <Content Include="Content\assets\_DS_Store" />
-    <Content Include="Content\dist\assets\css\fonts\icomoon.eot" />
-    <Content Include="Content\dist\assets\css\fonts\icomoon.ttf" />
-    <Content Include="Content\dist\assets\css\fonts\icomoon.woff" />
-    <Content Include="Content\dist\assets\css\_DS_Store" />
-    <Content Include="Content\dist\assets\img\dynamoLogo.ai" />
-    <Content Include="Content\dist\assets\img\Fitness.ai" />
-    <Content Include="Content\dist\assets\_DS_Store" />
-    <Content Include="Content\dist\_DS_Store" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_HeaderNavBar.cshtml" />
   </ItemGroup>
@@ -351,11 +339,16 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Generator\Index.cshtml" />
     <Content Include="Views\Generator\ViewModel.cshtml" />
+    <Content Include="Content\dist\assets\css\fonts\icomoon.eot" />
+    <Content Include="Content\dist\assets\css\fonts\icomoon.ttf" />
+    <Content Include="Content\dist\assets\css\fonts\icomoon.woff" />
+    <Content Include="Content\dist\assets\css\_DS_Store" />
+    <Content Include="Content\dist\assets\img\dynamoLogo.ai" />
+    <Content Include="Content\dist\assets\img\Fitness.ai" />
+    <Content Include="Content\dist\assets\_DS_Store" />
+    <Content Include="Content\dist\_DS_Store" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
