@@ -136,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Exercises.xml" />
+    <Content Include="App_Data\ExercisesD.xml" />
     <Content Include="Content\assets\css\1-tools\fonts\icomoon.svg" />
     <Content Include="Content\assets\css\main.css" />
     <Content Include="Content\assets\css\main.min.css" />

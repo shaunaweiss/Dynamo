@@ -69,10 +69,27 @@
                             <td> Distance from target: </td>
                             <td> @details.user.getDifferencce</td>
                         </tr>
+                    </table>
+                    <h1> Workout Generated </h1>
+                   <table class="table table-bordered">
+                       <tr>
 
-                        @*This is our attempt to print out the routines for a user*@
-                        @foreach (var item in details.routines)
-                        {
+                           <th> Exercise Name </th>
+
+                           <th> Type </th>
+
+                           <th> Focus Area </th>
+
+                           <th> Discription </th>
+
+                           <th> Reps </th>
+
+                           <th> Sets </th>
+
+                       </tr> 
+                            @*This is our attempt to print out the routines for a user*@
+                            @foreach (var item in details.routines)
+                            {
                                 <tr>
                                     <td> @item.name </td>
                                     <td> @item.type </td>
@@ -81,10 +98,10 @@
                                     <td> @item.reps </td>
                                     <td> @item.sets </td>
                                 </tr>
-                        }
+                            }
 
-                    </table>
-                    <h1> Workout Generated </h1>
+                        </table>
+                 
 
                 }
             }
