@@ -9,8 +9,7 @@
             <div class="claim">
             </div>
         </div>
-        <div class="angled-overlay"></div>
-        
+        <div class="angled-overlay"></div>  
     </header>
     @model Helper.External.Model.User
     @{
@@ -19,7 +18,7 @@
         Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
-    <secion id="generator" class="grid">
+    <secion>
         <div class="container-fluid">
             <h1>
                 Generate Your Workout
@@ -32,9 +31,24 @@
                         <th colspan="2" align="center">Person Details</th>
                     </tr>
                     <tr>
+                        <td>Gender: </td>
+                        <td>
+                            Male @Html.RadioButtonFor(m => m._gender, "Male")
+                            Female @Html.RadioButtonFor(m => m._gender, "Female")
+                            @Html.ValidationMessageFor(m => m._gender, "Please enter your gender.", new { @class = "text-danger"})
+                            @*
+                            @Html.DropDownListFor(m => m._gender, new List<SelectListItem>
+                            { new SelectListItem{Text="Male", Value="MALE"},
+                            new SelectListItem{Text="Female", Value="FEMALE"}}, "Please select")*@
+
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
                         <td>Current Weight: </td>
                         <td>
                             @Html.TextBoxFor(m => m._currentweight)
+                            @Html.ValidationMessageFor(m => m._currentweight, "Please enter your current weight.", new { @class = "text-danger" })
                         </td>
                     </tr>
                     <tr></tr>
@@ -42,6 +56,7 @@
                         <td>Target Weight: </td>
                         <td>
                             @Html.TextBoxFor(m => m._targetweight)
+                            @Html.ValidationMessageFor(m => m._targetweight, "Please enter your target weight.", new { @class = "text-danger" })
                         </td>
                     </tr>
                     <tr></tr>
@@ -49,6 +64,7 @@
                         <td>Age: </td>
                         <td>
                             @Html.TextBoxFor(m => m._age)
+                            @Html.ValidationMessageFor(m => m._age, "Please enter your age.", new { @class = "text-danger" })
                         </td>
                     </tr>
                     <tr></tr>
@@ -56,46 +72,48 @@
                         <td>Height: </td>
                         <td>
                             @Html.TextBoxFor(m => m._height)
+                            @Html.ValidationMessageFor(m => m._height, "Please enter your height.", new { @class = "text-danger" })
                         </td>
                     </tr>
                     <tr></tr>
-                    <tr>
-                        <td>Gender: </td>
-                        <td>
-                            @Html.DropDownListFor(m => m._gender, new List<SelectListItem>
-                            { new SelectListItem{Text="Male", Value="MALE"},
-                            new SelectListItem{Text="Female", Value="FEMALE"}}, "Please select")
 
-                        </td>
-                    </tr>
                     <tr></tr>
                     <tr>
                         <td>Type: </td>
                         <td>
-                            <!--If you want to only select one type of workout-->
-                            @*@Html.DropDownListFor(m => m._type, new List<SelectListItem>
-                                {new SelectListItem{Text="CARDIO", Value="C"},
-                                ectListItem{Text="STRENGTH", Value="S"},
-                                ectListItem { Text = "FLEXIBILITY", Value = "F" }}, "Please select") *@
+                           
+                            @Html.DropDownListFor(m => m._type, new List<SelectListItem>
+                            {   new SelectListItem{Text="CARDIO", Value=" CARDIO "},
+                                new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
+                                new SelectListItem { Text = "FLEXIBILITY", Value =  " FLEXIBILITY " }}, "Please select") 
+                            @Html.ValidationMessageFor(m => m._type, "Please select your preferred type of workout.", new { @class = "text-danger" })
+
+                            @*
                             @Html.ListBoxFor(m => m._type, new List<SelectListItem>
                              { new SelectListItem{Text="CARDIO", Value=" CARDIO "},
                              new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
                              new SelectListItem { Text = "FLEXIBILITY", Value = " FLEXIBILITY " }}, "Please select")
+                            @Html.ValidationMessage("_type", "", new { @class = "text-danger" })
+                                *@
                         </td>
                     </tr>
                     <tr></tr>
                     <tr>
                         <td>Focus: </td>
                         <td>
-                            <!--If you want to only select only one focus area-->
-                            @*@Html.DropDownListFor(m => m._focus, new List<SelectListItem>
-                                { new SelectListItem{Text="UPPERBODY", Value="UB"},
-                                new SelectListItem{Text="CORE", Value="CO"},
-                                new SelectListItem{Text="LOWERBODY", Value="LB"}, }, "Please select")*@
+                         
+                           @Html.DropDownListFor(m => m._focus, new List<SelectListItem>
+                                { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY "},
+                                new SelectListItem{Text="CORE", Value=" CORE "},
+                                new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
+                            @Html.ValidationMessageFor(m => m._focus, "Please select your preferred focus area.", new { @class = "text-danger" })
+
+                            @*
                             @Html.ListBoxFor(m => m._focus, new List<SelectListItem>
                             { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY "},
                             new SelectListItem{Text="CORE", Value=" CORE "},
                             new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
+                            @Html.ValidationMessage("_type", "", new { @class = "text-danger" })*@
 
                         </td>
                     </tr>
@@ -105,9 +123,10 @@
                         <td>
                             @Html.DropDownListFor(m => m._difficulty, new List<SelectListItem>
                             { new SelectListItem{Text="BEGINNER", Value="1"},
-                            new SelectListItem{Text="INTERMEDIATE", Value="2"},
-                            new SelectListItem{Text="ADVANCED", Value="3"},
+                                new SelectListItem{Text="INTERMEDIATE", Value="2"},
+                                new SelectListItem{Text="ADVANCED", Value="3"},
                             }, "Please select")
+                            @Html.ValidationMessageFor(m => m._difficulty, "Please select your difficulty level.", new { @class = "text-danger" })
                         </td>
                     </tr>
                     <tr>
@@ -118,6 +137,8 @@
             }
 
         </div>
+        
     </secion>
+    @Html.ActionLink("Back to List", "Home")
 </body>
 </html>

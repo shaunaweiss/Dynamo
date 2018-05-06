@@ -26,10 +26,15 @@ namespace Dynamo.Controllers
 
         [HttpPost]
         public ActionResult ViewModel(User u)
-        { 
+        {
             // TODO
             // Need to add exception handling of form
-       
+
+            //if (ModelState.IsValid)
+            //{
+            //    return RedirectToAction("Index");
+            //}
+
             //Send user information to viewmodel
             ViewModel vwUser = new ViewModel(u, getExerciseList());
             ViewBag.vwUser = vwUser;

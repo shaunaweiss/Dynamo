@@ -2,9 +2,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <body class="mobile-shift">
     <header id="generator">
-        <div class="claim-lockup">
+        <div class="claim-lockup" >
             <div class="claim">
             </div>
         </div>
@@ -19,7 +23,7 @@
     }
 
     <secion id="generator" class="grid">
-        <div class="container-fluid">
+        <div class="table-responsive">
             <h1>
                 Generate Your Workout
             </h1>
@@ -28,7 +32,7 @@
                 if (IsPost)
                 {
                     <h1> User Details </h1>
-                    <table class="table-responsive">
+                    <table class="table-bordered">
                         <tr>
                             <td>Gender: </td>
                             <td> @details.user._gender </td>
@@ -71,37 +75,38 @@
                         </tr>
                     </table>
                     <h1> Workout Generated </h1>
-                   <table class="table-responsive">
-                       <tr>
+                   <table class="table-bordered">
+                       <thread>
+                           <tr>
 
-                           <th> Exercise Name </th>
+                               <th> Exercise Name </th>
 
-                           <th> Type </th>
+                               <th> Discription </th>
 
-                           <th> Focus Area </th>
+                               <th> Reps </th>
 
-                           <th> Discription </th>
+                               <th> Sets </th>
 
-                           <th> Reps </th>
-
-                           <th> Sets </th>
-
-                       </tr> 
-                            @*This is our attempt to print out the routines for a user*@
-                            @foreach (var item in details.routines)
-                            {
-                                <tr>
-                                    <td> @item.name </td>
-                                    <td> @item.type </td>
-                                    <td> @item.focus </td>
-                                    <td> @item.description </td>
-                                    <td> @item.reps </td>
-                                    <td> @item.sets </td>
-                                </tr>
-                            }
-
+                           </tr>
+                       </thread>
+                       <tbody>
+                           @*This is our attempt to print out the routines for a user*@
+                           @foreach (var item in details.routines)
+                           {
+                               <tr>
+                                   <td> @item.name </td>
+                                   <td> @item.description </td>
+                                   <td> @item.reps </td>
+                                   <td> @item.sets </td>
+                               </tr>
+                           }
+                       </tbody>
                         </table>
-                 
-
                 }
             }
+
+
+           </div>
+        @Html.ActionLink("Back to Form", "Generator/Index")
+           </body>
+        
