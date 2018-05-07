@@ -12,30 +12,23 @@ namespace Helper.External.Model
 
     public class User
     {
-        [Required]
+
+        public String _fName { get; set; }
+        public String _lName { get; set; }
         public String _gender { get; set; }
-        [Required]
-        [Range(0,100)]
         public int _age { get; set; }
-        [Required]
         public String _type { get; set; }
-        [Required]
         public String _focus { get; set; }
-        [Required]
-        [Range(0, 400)]
         public int _currentweight { get; set; }
-        [Required]
-        [Range(0, 400)]
         public int _targetweight { get; set; }
-        [Required]
         public int _height { get; set; }
-        [Required]
         public String _difficulty { get; set; }
-       
 
         // Empty Constructor
         public User()
         {
+            this._fName = _fName;
+            this._lName = _lName;
             this._gender = _gender;
             this._type = _type;
             this._focus = _focus;
