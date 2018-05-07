@@ -321,6 +321,7 @@
     <Content Include="Content\assets\img\Fitness.ai" />
     <Content Include="Content\assets\img\_DS_Store" />
     <Content Include="Content\assets\_DS_Store" />
+    <Content Include="Views\Generator\Test.html" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_HeaderNavBar.cshtml" />
   </ItemGroup>
