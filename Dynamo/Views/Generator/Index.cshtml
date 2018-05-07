@@ -139,6 +139,73 @@
         </div>
         
     </secion>
+    <div class="bd-example">
+        <div style="text-align:center" >
+            <div class="text-lockup"></div>
+            <h3>DYNAMO</h3>
+            <h2>GENERATE YOUR WORKOUT</h2>
+            <img src="~/Content/assets/img/drop-muted.png" />
+            <p> <i> Please fill out the form to the right in order to enable us to customize a workout just for you. </i> </p>
+        </div>
+        <div class="input-group" style="padding-bottom:15px">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">FIRST 	&amp; LAST NAME</span>
+            </div>
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">WORKOUT TYPE</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Please Select...</option>
+                <option value="1">Cardio</option>
+                <option value="2">Strength</option>
+                <option value="3">Flexibility</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Please Select...</option>
+                <option value="1">Upper Body</option>
+                <option value="2">Core</option>
+                <option value="3">Lower Body</option>
+            </select>
+            <div class="input-group-append">
+                <label class="input-group-text" for="inputGroupSelect02">FOCUS AREA</label>
+            </div>
+        </div>
+        <fieldset class="form-group form-inline">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Female
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Male
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p> Target Weight: <input type="number" name="TargetWeight" value="120" min="0" max="300"> lbs  </p>
+                </div>
+                <div class="form-group">
+                    <p> Actual Weight: <input type="number" name="CurrentWeight" value="150" min="0" max="300"> lbs </p>
+                </div>
+            </div>
+        </fieldset>
+
+    
+    </div>
+  
     @Html.ActionLink("Back to List", "Home")
 </body>
 </html>
