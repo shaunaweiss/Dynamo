@@ -16,7 +16,7 @@ namespace Helper
         
         public List<Exercises> ReturnListOfExercises()
         {
-            string xmlData = HttpContext.Current.Server.MapPath("~/App_Data/Exercises.xml");
+            string xmlData = HttpContext.Current.Server.MapPath("~/App_Data/ExercisesD.xml");
             DataSet ds = new DataSet();
             ds.ReadXml(xmlData);
 
