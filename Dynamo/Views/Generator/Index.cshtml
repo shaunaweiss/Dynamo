@@ -9,7 +9,7 @@
             <div class="claim">
             </div>
         </div>
-        <div class="angled-overlay"></div>  
+        <div class="angled-overlay"></div>
     </header>
     @model Helper.External.Model.User
     @{
@@ -18,154 +18,114 @@
         Layout = "~/Views/Shared/_Layout.cshtml";
     }
 
-    <secion>
+    <sectoin>
         <div class="container-fluid">
-            <h1>
-                Generate Your Workout
-            </h1>
-           
+
             @using (Html.BeginForm("ViewModel", "Generator", FormMethod.Post))
             {
+
                 <div class="bd-example">
-                    <div style="text-align:center">
-                        <div class="text-lockup"></div>
-                        <h3>DYNAMO</h3>
-                        <h2>GENERATE YOUR WORKOUT</h2>
-                        <img src="~/Content/assets/img/drop-muted.png" />
-                        <p> <i> Please fill out the form to the right in order to enable us to customize a workout just for you. </i> </p>
-                    </div>
-                    <div class="input-group" style="padding-bottom:15px">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="">FIRST 	&amp; LAST NAME</span>
+                    -
+                    <div class="row">
+                        <div style="text-align:center">
+                            <div class="text-lockup"></div>
+                            <h2>GENERATE YOUR WORKOUT</h2>
+                            <img src="~/Content/assets/img/drop-muted.png" />
+                            <p> <i> Please fill out the form to the right in order to enable us to customize a workout just for you. </i> </p>
+                            <p> <i> By Default, the workout will be generated at an intermediate level, with a focus on the Upper Body and Cardio. </i></p>
                         </div>
-                        @Html.TextBoxFor(m => m._fName, new { @class = "from-control", placeholder = "Enter Heigght Here..", required = "required" })
-                        @Html.TextBoxFor(m => m._lName, new { @class = "from-control", placeholder = "Enter Heigght Here..", required = "required" })
-                    </div>
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <label class="input-group-text" for="inputGroupSelect01">WORKOUT TYPE</label>
-                        </div>
-                        <div class="custom-select" id="inputGroupSelect01">
-                            @Html.DropDownListFor(m => m._type, new List<SelectListItem>
-                    {   new SelectListItem{Text="CARDIO", Value=" CARDIO "},
-                    new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
-                    new SelectListItem { Text = "FLEXIBILITY", Value =  " FLEXIBILITY " }}, "Please select")
+
+
+                        <!--First and Last Name Form Group-->
+
+                        <div class="input-group" style="padding-bottom:15px; align-content:center">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="">FIRST 	&amp; LAST NAME &amp; Age</span>
+                            </div>
+                            @Html.TextBoxFor(m => m._fName, new { @class = "from-control", placeholder = "Name..", required = "required" })
+                            @Html.TextBoxFor(m => m._lName, new { @class = "from-control", placeholder = "Last Name..", required = "required" })
+                            @Html.TextBoxFor(m => m._age, new { @class = "from-control", placeholder = "Age..", required = "required" })
                         </div>
                     </div>
 
-                    <div class="input-group mb-3">
-                        <div class="custom-select" id="inputGroupSelect02">
-                            @Html.DropDownListFor(m => m._focus, new List<SelectListItem>
-                    { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY "},
-                    new SelectListItem{Text="CORE", Value=" CORE "},
-                    new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
+                    <!-----BEGININING OF 2ND ROW IN THE FORM------------------------------------------------------------------->
 
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group" style="padding-bottom:15px; align-content:center">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputGroupSelect01">TYPE</label>
+                                </div>
+                                <div class="custom-select" id="inputGroupSelect01">
+                                    @Html.DropDownListFor(m => m._type, new List<SelectListItem>
+                                    {   new SelectListItem{Text="CARDIO", Value=" CARDIO ", Selected = true },
+                                    new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
+                                    new SelectListItem { Text = "FLEXIBILITY", Value =  " FLEXIBILITY " }}, "Please select")
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group" style="padding-bottom:15px; align-content:center" ">
+                                    <div class="input-group-append">
+                                        <label class="input-group-text" for="inputGroupSelect02">FOCUS</label>
+                                    </div>
+                                    <div class="custom-select" id="inputGroupSelect02">
+                                        @Html.DropDownListFor(m => m._focus, new List<SelectListItem>
+                            { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY ", Selected = true},
+                            new SelectListItem{Text="CORE", Value=" CORE "},
+                            new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+
+                                <div class="input-group mb-3 ">
+                                    <div class="input-group-append">
+                                        <label class="input-group-text" for="inputGroupSelect02">DIFFICULTY</label>
+                                    </div>
+                                    <div class="custom-select" id="inputGroupSelect02">
+                                        @Html.DropDownListFor(m => m._difficulty, new List<SelectListItem>
+                                    { new SelectListItem{Text="BEGINNER", Value="1"},
+                                    new SelectListItem{Text="INTERMEDIATE", Value="2", Selected = true},
+                                 new SelectListItem{Text="ADVANCED", Value="3"},
+                                 }, "Please select")
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="input-group-append">
-                            <label class="input-group-text" for="inputGroupSelect02">FOCUS AREA</label>
+                        <div class="col">
+                            <div class="input-group" style="padding-bottom:15px; align-content:center">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="">CURRENT &amp; TARGET WEIGHT &amp; HEIGHT</span>
+                                </div>
+                                @Html.TextBoxFor(m => m._currentweight, new { @class = "from-control", placeholder = "Weight Here..", required = "required" })
+                                @Html.TextBoxFor(m => m._targetweight, new { @class = "from-control", placeholder = "Target Weight Here..", required = "required" })
+                                @Html.TextBoxFor(m => m._height, new { @class = "from-control", placeholder = "Height Here..", required = "required" })
+                            </div>
                         </div>
                     </div>
-                    <fieldset class="form-group form-inline">
-                        <div class="row">
-                            <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                        @Html.RadioButtonFor(m => m._gender, "Male")
-  
-                                </div>
-                                <div class="form-check">
-                                        @Html.RadioButtonFor(m => m._gender, "Female")
-                                </div>
-                            </div>
-                            <div class="form-inline">
-                                <div class="form-group">
-                                    @Html.TextBoxFor(m => m._targetweight, new { @class = "from-control", placeholder = "Enter Target Weight Here..", required = "required" })
-                              
-                                </div>
-                                <div class="form-group">
-                                    @Html.TextBoxFor(m => m._currentweight, new { @class = "from-control", placeholder = "Enter Weight Here..", required = "required" })
-                                    
-                                </div>
-                            </div>
+                    <div class="col">
+                        <div class="form-group form-inline">
+                            Male    @Html.RadioButtonFor(m => m._gender, "Male", new { @checked = true })
+                            Female  @Html.RadioButtonFor(m => m._gender, "Female")
                         </div>
-                    </fieldset>
+                    </div>
+                    
+
+                    <div class="col" style="padding-left:90%;">
+                        <input type="submit" value="Submit" />
+                    </div>
                 </div>
-                <input type="submit" value="Submit" />
+                <!---------END ONE ROW OF FORM ELEMENT--------------------------------------------------------------->
+                <!--Gender Form Group-->
+
+            </div>
             }
-    </secion>
-    <!--
-        
-     <div class="bd-example">
-        <div style="text-align:center">
-            <div class="text-lockup"></div>
-            <h3>DYNAMO</h3>
-            <h2>GENERATE YOUR WORKOUT</h2>
-            <img src="~/Content/assets/img/drop-muted.png" />
-            <p> <i> Please fill out the form to the right in order to enable us to customize a workout just for you. </i> </p>
-        </div>
-        <div class="input-group" style="padding-bottom:15px">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="">FIRST 	&amp; LAST NAME</span>
-            </div>
 
-            <input type="text" class="form-control">
-            <input type="text" class="form-control">
-        </div>
-        <div class="input-group mb-3">
-            <div class="input-group-prepend">
-                <label class="input-group-text" for="inputGroupSelect01">WORKOUT TYPE</label>
-            </div>
-            <select class="custom-select" id="inputGroupSelect01">
-                <option selected>Please Select...</option>
-                <option value="1">Cardio</option>
-                <option value="2">Strength</option>
-                <option value="3">Flexibility</option>
-            </select>
-        </div>
+        </sectoin>
+       
 
-        <div class="input-group mb-3">
-            <select class="custom-select" id="inputGroupSelect02">
-                <option selected>Please Select...</option>
-                <option value="1">Upper Body</option>
-                <option value="2">Core</option>
-                <option value="3">Lower Body</option>
-            </select>
-            <div class="input-group-append">
-                <label class="input-group-text" for="inputGroupSelect02">FOCUS AREA</label>
-            </div>
-        </div>
-        <fieldset class="form-group form-inline">
-            <div class="row">
-                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
-                <div class="col-sm-10">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                        <label class="form-check-label" for="gridRadios1">
-                            Female
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                        <label class="form-check-label" for="gridRadios2">
-                            Male
-                        </label>
-                    </div>
-                </div>
-                <div class="form-inline">
-                    <div class="form-group">
-                        <p> Target Weight: <input type="number" name="TargetWeight" value="120" min="0" max="300"> lbs  </p>
-                    </div>
-                    <div class="form-group">
-                        <p> Actual Weight: <input type="number" name="CurrentWeight" value="150" min="0" max="300"> lbs </p>
-                    </div>
-                </div>
-            </div>
-        </fieldset>
-    </div>
-
-        
-    -->
 
         @Html.ActionLink("Back to List", "Home")
-</body>
+    </body>
 </html>

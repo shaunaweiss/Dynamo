@@ -23,16 +23,12 @@
     }
 
     <secion id="generator" class="grid">
-        <div class="table-responsive">
-            <h1>
-                Generate Your Workout
-            </h1>
+        <div class="bd-example">
             @{
-
                 if (IsPost)
                 {
                     <h1> User Details </h1>
-                    <table class="table-bordered">
+                    <table class="table table-bordered">
                         <tr>
                             <td>Gender: </td>
                             <td> @details.user._gender </td>
