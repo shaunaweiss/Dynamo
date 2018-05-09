@@ -60,7 +60,7 @@
                                     @Html.DropDownListFor(m => m._type, new List<SelectListItem>
                                     {   new SelectListItem{Text="CARDIO", Value=" CARDIO ", Selected = true },
                                     new SelectListItem{Text="STRENGTH", Value=" STRENGTH "},
-                                    new SelectListItem { Text = "FLEXIBILITY", Value =  " FLEXIBILITY " }}, "Please select")
+                                    new SelectListItem { Text = "FLEXIBILITY", Value =  " FLEXIBILITY " }})
                                 </div>
                             </div>
                             <div class="col">
@@ -72,7 +72,7 @@
                                         @Html.DropDownListFor(m => m._focus, new List<SelectListItem>
                             { new SelectListItem{Text="UPPERBODY", Value=" UPPERBODY ", Selected = true},
                             new SelectListItem{Text="CORE", Value=" CORE "},
-                            new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, }, "Please select")
+                            new SelectListItem{Text="LOWERBODY", Value=" LOWERBODY "}, })
                                     </div>
                                 </div>
 
@@ -88,7 +88,7 @@
                                     { new SelectListItem{Text="BEGINNER", Value="1"},
                                     new SelectListItem{Text="INTERMEDIATE", Value="2", Selected = true},
                                  new SelectListItem{Text="ADVANCED", Value="3"},
-                                 }, "Please select")
+                                 })
                                     </div>
                                 </div>
                             </div>
@@ -98,9 +98,9 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="">CURRENT &amp; TARGET WEIGHT &amp; HEIGHT</span>
                                 </div>
-                                @Html.TextBoxFor(m => m._currentweight, new { @class = "from-control", placeholder = "Weight Here..", required = "required" })
-                                @Html.TextBoxFor(m => m._targetweight, new { @class = "from-control", placeholder = "Target Weight Here..", required = "required" })
-                                @Html.TextBoxFor(m => m._height, new { @class = "from-control", placeholder = "Height Here..", required = "required" })
+                                @Html.TextBoxFor(m => m._currentweight, new { @class = "from-control", placeholder = "Weight in lbs", required = "required" })
+                                @Html.TextBoxFor(m => m._targetweight, new { @class = "from-control", placeholder = "Target Weight in lbs", required = "required" })
+                                @Html.TextBoxFor(m => m._height, new { @class = "from-control", placeholder = "Height in inches", required = "required" })
                             </div>
                         </div>
                     </div>

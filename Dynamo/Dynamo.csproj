@@ -359,7 +359,6 @@
     <Content Include="Content\dist\assets\img\Fitness.ai" />
     <Content Include="Content\dist\assets\_DS_Store" />
     <Content Include="Content\dist\_DS_Store" />
-    <Content Include="Content\bootSwatchForm.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

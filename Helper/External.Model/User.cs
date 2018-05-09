@@ -44,7 +44,7 @@ namespace Helper.External.Model
         }
         public double getDifferencce
         {
-            get { return Math.Abs(_targetweight - _currentweight); }
+            get { return Math.Abs( _currentweight - _targetweight); }
         }
     }
 }
