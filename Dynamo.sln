@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamo", "Dynamo\Dynamo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{42D5AB15-9D39-4B7D-BF09-8FED5F89677B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_ProcessClass", "D:\FinalDynamo\UnitTest_ProcessClass\UnitTest_ProcessClass.csproj", "{041689E5-7221-4177-B6D5-8860E82CBCAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_ProcessClass", "UnitTest_ProcessClass\UnitTest_ProcessClass.csproj", "{041689E5-7221-4177-B6D5-8860E82CBCAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_UserClass", "D:\FinalDynamo\UnitTest_UserClass\UnitTest_UserClass.csproj", "{95EB8457-2778-41DB-BCE3-D2102FFD1B7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest_UserClass", "UnitTest_UserClass\UnitTest_UserClass.csproj", "{95EB8457-2778-41DB-BCE3-D2102FFD1B7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
